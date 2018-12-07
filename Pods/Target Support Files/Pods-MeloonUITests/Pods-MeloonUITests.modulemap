@@ -1,0 +1,6 @@
+framework module Pods_MeloonUITests {
+  umbrella header "Pods-MeloonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

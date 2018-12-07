@@ -1,0 +1,6 @@
+framework module Pods_MeloonTests {
+  umbrella header "Pods-MeloonTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

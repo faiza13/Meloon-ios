@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0774A4634C2FE33966C05621 /* Pods_MeloonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8170859A61B56DAB84808AA /* Pods_MeloonUITests.framework */; };
+		0F3B3A04B7E778D2B3044450 /* Pods_MeloonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9115C8A1A517176684B018 /* Pods_MeloonTests.framework */; };
+		2D7599841525DDC7F730E91E /* Pods_Meloon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4117E132CE3383F6D8D4FE /* Pods_Meloon.framework */; };
+		5412BA0320821D410070D35E /* detailPublicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5412BA0220821D410070D35E /* detailPublicationViewController.swift */; };
+		5412BA0A2082496D0070D35E /* Jaime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5412BA072082496D0070D35E /* Jaime.swift */; };
+		5412BA0B2082496D0070D35E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5412BA082082496D0070D35E /* User.swift */; };
+		5412BA0D208278220070D35E /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5412BA0C208278220070D35E /* CommentViewController.swift */; };
+		5412BA0F208283CF0070D35E /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5412BA0E208283CF0070D35E /* Comment.swift */; };
+		5412BA1120828EA20070D35E /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5412BA1020828EA20070D35E /* CommentTableViewCell.swift */; };
+		54282396208E988200CABA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54282395208E988200CABA1F /* Assets.xcassets */; };
+		5428239A208ED30E00CABA1F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54282399208ED30E00CABA1F /* CollectionViewCell.swift */; };
+		543663E620A65A2C00795472 /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543663E520A65A2C00795472 /* cardView.swift */; };
+		5437D905209227AF006DD403 /* MostLikedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437D904209227AF006DD403 /* MostLikedViewController.swift */; };
+		5437D90920923109006DD403 /* MostLikedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437D90820923109006DD403 /* MostLikedTableViewCell.swift */; };
+		543CE8A5207D2D8200517EDE /* Publication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CE8A4207D2D8200517EDE /* Publication.swift */; };
+		543CE8AB207D46A300517EDE /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CE8AA207D46A300517EDE /* ViewControllerTableViewCell.swift */; };
+		5442F72E20741A5400E95187 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442F72D20741A5400E95187 /* RegisterViewController.swift */; };
+		5443773920745C87004198ED /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443773820745C87004198ED /* WelcomeViewController.swift */; };
+		5443773B2074605E004198ED /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443773A2074605E004198ED /* ProfileViewController.swift */; };
+		544939E620890DDA00746F43 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544939E520890DDA00746F43 /* FollowingViewController.swift */; };
+		544939EB2089933F00746F43 /* followingOtherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544939E92089933F00746F43 /* followingOtherTableViewCell.swift */; };
+		544939EC2089933F00746F43 /* followingOtherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544939EA2089933F00746F43 /* followingOtherTableViewCell.xib */; };
+		544939EF20899A6400746F43 /* followingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544939ED20899A6400746F43 /* followingTableViewCell.swift */; };
+		544939F020899A6400746F43 /* followingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544939EE20899A6400746F43 /* followingTableViewCell.xib */; };
+		54524F6E20A7852900363BA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54524F6D20A7852900363BA1 /* GoogleService-Info.plist */; };
+		54524F7020A79CCE00363BA1 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54524F6F20A79CCE00363BA1 /* Connection.swift */; };
+		54524F7220A7CBF000363BA1 /* FollowFinalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54524F7120A7CBF000363BA1 /* FollowFinalTableViewCell.swift */; };
+		545915062078FCD100CC15CE /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545915052078FCD100CC15CE /* tabBarViewController.swift */; };
+		545915092078FE9B00CC15CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545915072078FE9A00CC15CE /* Main.storyboard */; };
+		5459150B2079296000CC15CE /* lauchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5459150A2079296000CC15CE /* lauchViewController.swift */; };
+		5496DE022091123A00884E53 /* ButtonLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5496DE012091123A00884E53 /* ButtonLike.swift */; };
+		54C2D30B2074018600C979DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C2D30A2074018600C979DB /* AppDelegate.swift */; };
+		54C2D30D2074018600C979DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C2D30C2074018600C979DB /* ViewController.swift */; };
+		54C2D3132074018600C979DB /* Meloon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54C2D3112074018600C979DB /* Meloon.xcdatamodeld */; };
+		54C2D3182074018600C979DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C2D3162074018600C979DB /* LaunchScreen.storyboard */; };
+		54C2D3232074018600C979DB /* MeloonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C2D3222074018600C979DB /* MeloonTests.swift */; };
+		54C2D32E2074018600C979DB /* MeloonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C2D32D2074018600C979DB /* MeloonUITests.swift */; };
+		54CC9FA4208E31FA0085F59B /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC9FA3208E31FA0085F59B /* UploadViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54C2D31F2074018600C979DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C2D2FF2074018600C979DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C2D3062074018600C979DB;
+			remoteInfo = Meloon;
+		};
+		54C2D32A2074018600C979DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C2D2FF2074018600C979DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C2D3062074018600C979DB;
+			remoteInfo = Meloon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F963CF9CCDCEA435E7CFC9C /* Pods-MeloonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeloonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeloonTests/Pods-MeloonTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C13DE8394F83565F42F1D52 /* Pods-MeloonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeloonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeloonUITests/Pods-MeloonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B379A50DA432CA38694D5F6 /* Pods-Meloon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meloon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meloon/Pods-Meloon.debug.xcconfig"; sourceTree = "<group>"; };
+		5412BA0220821D410070D35E /* detailPublicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailPublicationViewController.swift; sourceTree = "<group>"; };
+		5412BA072082496D0070D35E /* Jaime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jaime.swift; sourceTree = "<group>"; };
+		5412BA082082496D0070D35E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5412BA0C208278220070D35E /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		5412BA0E208283CF0070D35E /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		5412BA1020828EA20070D35E /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		54282395208E988200CABA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54282399208ED30E00CABA1F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		543663E520A65A2C00795472 /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
+		5437D904209227AF006DD403 /* MostLikedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostLikedViewController.swift; sourceTree = "<group>"; };
+		5437D90820923109006DD403 /* MostLikedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostLikedTableViewCell.swift; sourceTree = "<group>"; };
+		543CE8A4207D2D8200517EDE /* Publication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publication.swift; sourceTree = "<group>"; };
+		543CE8AA207D46A300517EDE /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		5442F72D20741A5400E95187 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5443773820745C87004198ED /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5443773A2074605E004198ED /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		544939E520890DDA00746F43 /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		544939E92089933F00746F43 /* followingOtherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followingOtherTableViewCell.swift; sourceTree = "<group>"; };
+		544939EA2089933F00746F43 /* followingOtherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = followingOtherTableViewCell.xib; sourceTree = "<group>"; };
+		544939ED20899A6400746F43 /* followingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followingTableViewCell.swift; sourceTree = "<group>"; };
+		544939EE20899A6400746F43 /* followingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = followingTableViewCell.xib; sourceTree = "<group>"; };
+		54524F6C20A77F4700363BA1 /* Meloon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meloon.entitlements; sourceTree = "<group>"; };
+		54524F6D20A7852900363BA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		54524F6F20A79CCE00363BA1 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		54524F7120A7CBF000363BA1 /* FollowFinalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowFinalTableViewCell.swift; sourceTree = "<group>"; };
+		545915052078FCD100CC15CE /* tabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
+		545915082078FE9A00CC15CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5459150A2079296000CC15CE /* lauchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lauchViewController.swift; sourceTree = "<group>"; };
+		5496DE012091123A00884E53 /* ButtonLike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLike.swift; sourceTree = "<group>"; };
+		54C2D3072074018600C979DB /* Meloon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meloon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C2D30A2074018600C979DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54C2D30C2074018600C979DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54C2D3122074018600C979DB /* Meloon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meloon.xcdatamodel; sourceTree = "<group>"; };
+		54C2D3172074018600C979DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54C2D3192074018600C979DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C2D31E2074018600C979DB /* MeloonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeloonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C2D3222074018600C979DB /* MeloonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeloonTests.swift; sourceTree = "<group>"; };
+		54C2D3242074018600C979DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C2D3292074018600C979DB /* MeloonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeloonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C2D32D2074018600C979DB /* MeloonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeloonUITests.swift; sourceTree = "<group>"; };
+		54C2D32F2074018600C979DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CC9FA3208E31FA0085F59B /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		8F9115C8A1A517176684B018 /* Pods_MeloonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeloonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30CD1D825068BD16E1B6904 /* Pods-MeloonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeloonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeloonUITests/Pods-MeloonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4900C00E007F78FA6C0D5A9 /* Pods-MeloonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeloonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeloonTests/Pods-MeloonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED4117E132CE3383F6D8D4FE /* Pods_Meloon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meloon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74C5FE4052C0D648D86BE46 /* Pods-Meloon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meloon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meloon/Pods-Meloon.release.xcconfig"; sourceTree = "<group>"; };
+		F8170859A61B56DAB84808AA /* Pods_MeloonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeloonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C2D3042074018600C979DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7599841525DDC7F730E91E /* Pods_Meloon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2D31B2074018600C979DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3B3A04B7E778D2B3044450 /* Pods_MeloonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2D3262074018600C979DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0774A4634C2FE33966C05621 /* Pods_MeloonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54C2D2FE2074018600C979DB = {
+			isa = PBXGroup;
+			children = (
+				54C2D3092074018600C979DB /* Meloon */,
+				54C2D3212074018600C979DB /* MeloonTests */,
+				54C2D32C2074018600C979DB /* MeloonUITests */,
+				54C2D3082074018600C979DB /* Products */,
+				BD34219CCA74E0F1BEA0487A /* Pods */,
+				E2D747BF8AFEF217355172B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54C2D3082074018600C979DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C2D3072074018600C979DB /* Meloon.app */,
+				54C2D31E2074018600C979DB /* MeloonTests.xctest */,
+				54C2D3292074018600C979DB /* MeloonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54C2D3092074018600C979DB /* Meloon */ = {
+			isa = PBXGroup;
+			children = (
+				54524F6D20A7852900363BA1 /* GoogleService-Info.plist */,
+				54524F6C20A77F4700363BA1 /* Meloon.entitlements */,
+				54C2D30A2074018600C979DB /* AppDelegate.swift */,
+				54C2D30C2074018600C979DB /* ViewController.swift */,
+				54C2D3162074018600C979DB /* LaunchScreen.storyboard */,
+				545915072078FE9A00CC15CE /* Main.storyboard */,
+				54C2D3192074018600C979DB /* Info.plist */,
+				54C2D3112074018600C979DB /* Meloon.xcdatamodeld */,
+				5442F72D20741A5400E95187 /* RegisterViewController.swift */,
+				5443773820745C87004198ED /* WelcomeViewController.swift */,
+				5443773A2074605E004198ED /* ProfileViewController.swift */,
+				545915052078FCD100CC15CE /* tabBarViewController.swift */,
+				54282395208E988200CABA1F /* Assets.xcassets */,
+				5459150A2079296000CC15CE /* lauchViewController.swift */,
+				5412BA0C208278220070D35E /* CommentViewController.swift */,
+				543CE8A4207D2D8200517EDE /* Publication.swift */,
+				5412BA072082496D0070D35E /* Jaime.swift */,
+				5412BA082082496D0070D35E /* User.swift */,
+				543CE8AA207D46A300517EDE /* ViewControllerTableViewCell.swift */,
+				5412BA0220821D410070D35E /* detailPublicationViewController.swift */,
+				5412BA0E208283CF0070D35E /* Comment.swift */,
+				5412BA1020828EA20070D35E /* CommentTableViewCell.swift */,
+				544939E520890DDA00746F43 /* FollowingViewController.swift */,
+				544939E92089933F00746F43 /* followingOtherTableViewCell.swift */,
+				544939EA2089933F00746F43 /* followingOtherTableViewCell.xib */,
+				544939ED20899A6400746F43 /* followingTableViewCell.swift */,
+				544939EE20899A6400746F43 /* followingTableViewCell.xib */,
+				54CC9FA3208E31FA0085F59B /* UploadViewController.swift */,
+				54282399208ED30E00CABA1F /* CollectionViewCell.swift */,
+				5496DE012091123A00884E53 /* ButtonLike.swift */,
+				5437D904209227AF006DD403 /* MostLikedViewController.swift */,
+				5437D90820923109006DD403 /* MostLikedTableViewCell.swift */,
+				543663E520A65A2C00795472 /* cardView.swift */,
+				54524F6F20A79CCE00363BA1 /* Connection.swift */,
+				54524F7120A7CBF000363BA1 /* FollowFinalTableViewCell.swift */,
+			);
+			path = Meloon;
+			sourceTree = "<group>";
+		};
+		54C2D3212074018600C979DB /* MeloonTests */ = {
+			isa = PBXGroup;
+			children = (
+				54C2D3222074018600C979DB /* MeloonTests.swift */,
+				54C2D3242074018600C979DB /* Info.plist */,
+			);
+			path = MeloonTests;
+			sourceTree = "<group>";
+		};
+		54C2D32C2074018600C979DB /* MeloonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54C2D32D2074018600C979DB /* MeloonUITests.swift */,
+				54C2D32F2074018600C979DB /* Info.plist */,
+			);
+			path = MeloonUITests;
+			sourceTree = "<group>";
+		};
+		BD34219CCA74E0F1BEA0487A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B379A50DA432CA38694D5F6 /* Pods-Meloon.debug.xcconfig */,
+				F74C5FE4052C0D648D86BE46 /* Pods-Meloon.release.xcconfig */,
+				D4900C00E007F78FA6C0D5A9 /* Pods-MeloonTests.debug.xcconfig */,
+				0F963CF9CCDCEA435E7CFC9C /* Pods-MeloonTests.release.xcconfig */,
+				C30CD1D825068BD16E1B6904 /* Pods-MeloonUITests.debug.xcconfig */,
+				1C13DE8394F83565F42F1D52 /* Pods-MeloonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2D747BF8AFEF217355172B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED4117E132CE3383F6D8D4FE /* Pods_Meloon.framework */,
+				8F9115C8A1A517176684B018 /* Pods_MeloonTests.framework */,
+				F8170859A61B56DAB84808AA /* Pods_MeloonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C2D3062074018600C979DB /* Meloon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C2D3322074018600C979DB /* Build configuration list for PBXNativeTarget "Meloon" */;
+			buildPhases = (
+				03C1FAFFCEAF8924664C026D /* [CP] Check Pods Manifest.lock */,
+				54C2D3032074018600C979DB /* Sources */,
+				54C2D3042074018600C979DB /* Frameworks */,
+				54C2D3052074018600C979DB /* Resources */,
+				20FC82E0A11D6E483E147C5F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meloon;
+			productName = Meloon;
+			productReference = 54C2D3072074018600C979DB /* Meloon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54C2D31D2074018600C979DB /* MeloonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C2D3352074018600C979DB /* Build configuration list for PBXNativeTarget "MeloonTests" */;
+			buildPhases = (
+				EF4912D690221258DB6BF2F5 /* [CP] Check Pods Manifest.lock */,
+				54C2D31A2074018600C979DB /* Sources */,
+				54C2D31B2074018600C979DB /* Frameworks */,
+				54C2D31C2074018600C979DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C2D3202074018600C979DB /* PBXTargetDependency */,
+			);
+			name = MeloonTests;
+			productName = MeloonTests;
+			productReference = 54C2D31E2074018600C979DB /* MeloonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54C2D3282074018600C979DB /* MeloonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C2D3382074018600C979DB /* Build configuration list for PBXNativeTarget "MeloonUITests" */;
+			buildPhases = (
+				7320251F992EA075C1E37703 /* [CP] Check Pods Manifest.lock */,
+				54C2D3252074018600C979DB /* Sources */,
+				54C2D3262074018600C979DB /* Frameworks */,
+				54C2D3272074018600C979DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C2D32B2074018600C979DB /* PBXTargetDependency */,
+			);
+			name = MeloonUITests;
+			productName = MeloonUITests;
+			productReference = 54C2D3292074018600C979DB /* MeloonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C2D2FF2074018600C979DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Esprit;
+				TargetAttributes = {
+					54C2D3062074018600C979DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					54C2D31D2074018600C979DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54C2D3062074018600C979DB;
+					};
+					54C2D3282074018600C979DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54C2D3062074018600C979DB;
+					};
+				};
+			};
+			buildConfigurationList = 54C2D3022074018600C979DB /* Build configuration list for PBXProject "Meloon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54C2D2FE2074018600C979DB;
+			productRefGroup = 54C2D3082074018600C979DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C2D3062074018600C979DB /* Meloon */,
+				54C2D31D2074018600C979DB /* MeloonTests */,
+				54C2D3282074018600C979DB /* MeloonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C2D3052074018600C979DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545915092078FE9B00CC15CE /* Main.storyboard in Resources */,
+				54C2D3182074018600C979DB /* LaunchScreen.storyboard in Resources */,
+				544939EC2089933F00746F43 /* followingOtherTableViewCell.xib in Resources */,
+				544939F020899A6400746F43 /* followingTableViewCell.xib in Resources */,
+				54282396208E988200CABA1F /* Assets.xcassets in Resources */,
+				54524F6E20A7852900363BA1 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2D31C2074018600C979DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2D3272074018600C979DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03C1FAFFCEAF8924664C026D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meloon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20FC82E0A11D6E483E147C5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Meloon/Pods-Meloon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meloon/Pods-Meloon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7320251F992EA075C1E37703 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeloonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4912D690221258DB6BF2F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeloonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C2D3032074018600C979DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544939EB2089933F00746F43 /* followingOtherTableViewCell.swift in Sources */,
+				54CC9FA4208E31FA0085F59B /* UploadViewController.swift in Sources */,
+				5412BA0D208278220070D35E /* CommentViewController.swift in Sources */,
+				544939E620890DDA00746F43 /* FollowingViewController.swift in Sources */,
+				5496DE022091123A00884E53 /* ButtonLike.swift in Sources */,
+				5459150B2079296000CC15CE /* lauchViewController.swift in Sources */,
+				5443773B2074605E004198ED /* ProfileViewController.swift in Sources */,
+				543CE8AB207D46A300517EDE /* ViewControllerTableViewCell.swift in Sources */,
+				54C2D30D2074018600C979DB /* ViewController.swift in Sources */,
+				543CE8A5207D2D8200517EDE /* Publication.swift in Sources */,
+				5412BA0B2082496D0070D35E /* User.swift in Sources */,
+				5443773920745C87004198ED /* WelcomeViewController.swift in Sources */,
+				5412BA0A2082496D0070D35E /* Jaime.swift in Sources */,
+				54524F7020A79CCE00363BA1 /* Connection.swift in Sources */,
+				545915062078FCD100CC15CE /* tabBarViewController.swift in Sources */,
+				543663E620A65A2C00795472 /* cardView.swift in Sources */,
+				5437D90920923109006DD403 /* MostLikedTableViewCell.swift in Sources */,
+				544939EF20899A6400746F43 /* followingTableViewCell.swift in Sources */,
+				54524F7220A7CBF000363BA1 /* FollowFinalTableViewCell.swift in Sources */,
+				5412BA0F208283CF0070D35E /* Comment.swift in Sources */,
+				5412BA1120828EA20070D35E /* CommentTableViewCell.swift in Sources */,
+				54C2D30B2074018600C979DB /* AppDelegate.swift in Sources */,
+				5428239A208ED30E00CABA1F /* CollectionViewCell.swift in Sources */,
+				54C2D3132074018600C979DB /* Meloon.xcdatamodeld in Sources */,
+				5412BA0320821D410070D35E /* detailPublicationViewController.swift in Sources */,
+				5442F72E20741A5400E95187 /* RegisterViewController.swift in Sources */,
+				5437D905209227AF006DD403 /* MostLikedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2D31A2074018600C979DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C2D3232074018600C979DB /* MeloonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2D3252074018600C979DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C2D32E2074018600C979DB /* MeloonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54C2D3202074018600C979DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C2D3062074018600C979DB /* Meloon */;
+			targetProxy = 54C2D31F2074018600C979DB /* PBXContainerItemProxy */;
+		};
+		54C2D32B2074018600C979DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C2D3062074018600C979DB /* Meloon */;
+			targetProxy = 54C2D32A2074018600C979DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		545915072078FE9A00CC15CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545915082078FE9A00CC15CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54C2D3162074018600C979DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C2D3172074018600C979DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54C2D3302074018600C979DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54C2D3312074018600C979DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54C2D3332074018600C979DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B379A50DA432CA38694D5F6 /* Pods-Meloon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Meloon/Meloon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				INFOPLIST_FILE = Meloon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.Meloon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54C2D3342074018600C979DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74C5FE4052C0D648D86BE46 /* Pods-Meloon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Meloon/Meloon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				INFOPLIST_FILE = Meloon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.Meloon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54C2D3362074018600C979DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4900C00E007F78FA6C0D5A9 /* Pods-MeloonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeloonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.MeloonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meloon.app/Meloon";
+			};
+			name = Debug;
+		};
+		54C2D3372074018600C979DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F963CF9CCDCEA435E7CFC9C /* Pods-MeloonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeloonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.MeloonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meloon.app/Meloon";
+			};
+			name = Release;
+		};
+		54C2D3392074018600C979DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30CD1D825068BD16E1B6904 /* Pods-MeloonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeloonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.MeloonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meloon;
+			};
+			name = Debug;
+		};
+		54C2D33A2074018600C979DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C13DE8394F83565F42F1D52 /* Pods-MeloonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeloonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.MeloonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meloon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C2D3022074018600C979DB /* Build configuration list for PBXProject "Meloon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C2D3302074018600C979DB /* Debug */,
+				54C2D3312074018600C979DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C2D3322074018600C979DB /* Build configuration list for PBXNativeTarget "Meloon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C2D3332074018600C979DB /* Debug */,
+				54C2D3342074018600C979DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C2D3352074018600C979DB /* Build configuration list for PBXNativeTarget "MeloonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C2D3362074018600C979DB /* Debug */,
+				54C2D3372074018600C979DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C2D3382074018600C979DB /* Build configuration list for PBXNativeTarget "MeloonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C2D3392074018600C979DB /* Debug */,
+				54C2D33A2074018600C979DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54C2D3112074018600C979DB /* Meloon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54C2D3122074018600C979DB /* Meloon.xcdatamodel */,
+			);
+			currentVersion = 54C2D3122074018600C979DB /* Meloon.xcdatamodel */;
+			path = Meloon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54C2D2FF2074018600C979DB /* Project object */;
+}
